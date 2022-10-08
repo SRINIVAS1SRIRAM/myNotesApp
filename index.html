@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer="defer"></script>
+</head>
+<body>
+    <div class="notesWrapper">
+        <h1>My Notes</h1>
+        <p>Double click to mark a note</p>
+        <div>
+            <form>
+                <label for="note" id="noteLabel" title="Enter your Notes">Enter your Notes: </label>
+                <input type="text" id="note" name="note" />
+            </form>            
+            <input type="button" id="addNoteBtn" class="pretty-button" value="Add" title="Click to Add">
+        </div>
+        <div>
+            <ol id="myNotes">
+
+            </ol>
+        </div>
+        <div></div>
+        <div class="buttonControls">
+            <input type="button" id="clearMarkedBtn"  class="pretty-button"  title="Clear Marked" value="Clear Marked">
+            <input type="button" id="emptyNotesBtn" class="pretty-button" title="Empty Notes" value="Empty Notes">
+            <input type="button" id="saveNotesBtn" class="pretty-button" title="Save Notes" value="Save Notes">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body{
+    background-color: #29857f;
+    color: #ffffff;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.notesWrapper {
+    background-color: #d4f2ef;
+    color: #29857f;
+    margin: 20px auto auto 20px;
+    border-radius: 15px;
+    padding: 50px;
+    font-weight: 300;
+}
+
+.notesWrapper p {
+    font-style: italic;
+    color: #68b1ac;
+}
+
+.notesWrapper ol {
+    margin: 20px 0;
+}
+
+.notesWrapper input {
+    padding: 3px 5px;
+}
+
+.notesWrapper form {
+    display: inline-block;
+}
+
+.notesWrapper ol li {
+    margin: 5px 0;
+    padding: 3px;
+    transition: all 0.5s ease-out;
+}
+
+.notesWrapper .selected {
+    text-decoration: line-through;
+    color: rgb(80, 16, 16);
+}
+
+.notesWrapper .pretty-button {
+    margin: 10px 2px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #0093D5;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+.notesWrapper #addNoteBtn {
+    background-color: #29857f;
+    color: #d4f2ef;
+}
+
+.notesWrapper #clearMarkedBtn {
+    background-color: #49B749;
+}
+
+.notesWrapper #emptyNotesBtn {
+    background-color: #d3575b;
+}
+
+.notesWrapper #saveNotesBtn {
+    background-color: #15703b;
+}
+/* 
+.buttonControls {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
